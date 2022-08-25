@@ -16,6 +16,9 @@ ul.profile__social{
     padding-top:8px;
 
 }
+div {
+  border-radius: 15px;
+}
 
 .banner {
   background-image: url(./banner/images9.jpg);
@@ -61,5 +64,6 @@ body {
     background-image:url(./banner/images14.jpg)
 }
 div.conten{
-    background-color: rgb(47, 46, 46);
+    background-color: rgba(47, 46, 46, 0.779);
 }
+
