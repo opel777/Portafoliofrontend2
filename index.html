@@ -21,34 +21,50 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+
     <title>Mi Portafolio</title>
   </head>
 
   <body>
-    <div class="container">
+    <div class="container container-fluid">
       <!-- div container Header -->
 
-      <div class="col-12 border border-1 m-1 superior conten">
-        <div class="row align-items-center">
-          <div class="col-sm-2 logo yoProgramo">
+      <div class="col-12 border border-1 m-1 superior conten header">
+        <div class="row row-cols-auto align-items-center">
+          <div
+            class="col-4 col-sm-4 col-md-4 col-lg-3 logo yoProgramo text-center"
+          >
             <img
               src="./logos portafolio/yo programo.png"
-              class="mx-auto d-block pro"
+              alt="yo programo"
+              width="60%"
+              height="auto"
+              class="mx-auto d-block yoProgramo"
             />
           </div>
-          <div class="col-sm-2 col-md logo inti">
-            <img src="./logos portafolio/inti.png" class="mx-auto inti" />
+          <div class="col-4 col-sm-4 col-md-4 col-lg-3 logo inti text-center">
+            <img
+              src="./logos portafolio/logo Inti1.png"
+              alt="Inti"
+              width="25%"
+              height="auto"
+              class="mx-auto inti"
+            />
           </div>
-          <div class="col-sm-2 logo ministerio">
+          <div
+            class="col-4 col-sm-4 col-md-4 col-lg-3 logo ministerio text-center"
+          >
             <img
               src="./logos portafolio/ministerio.png "
+              alt="Ministerio"
+              width="65%"
+              height="auto"
               class="mx-auto d-block ministerio"
             />
           </div>
-          <div class="col-sm-2"></div>
-          <div class="col-sm-2">
-            <div class="row">
-              <div class="col-sm-6 col-md-6 col-lg-6 text-center">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+            <div class="row row-cols-auto text-center">
+              <div class="col-6 col-sm-6 col-md-6 col-lg-6 text-center social">
                 <ul class="profile__social">
                   <a
                     href="https://www.linkedin.com/in/gustavo-antonio-villegas-arbea/"
@@ -71,89 +87,60 @@
                   </a>
                 </ul>
               </div>
-            </div>
-          </div>
-          <div class="col-2">
-            <button class="btn">
-              <p class="login">login</p>
-            </button>
-          </div>
-        </div>
-        <!-- <div class="row p-1 pt-0 justify-content-between">
-          <div class="col-2 logo d-flex">
-            <img src="./logos portafolio/yo programo.png" class="pro" />
-            <img src="./logos portafolio/inti.png" class="inti" />
-            <img src="./logos portafolio/ministerio.png " class="ministerio" />
-          </div>
-          <div class="col-4 pl-1 mx-5">
-            <div class="row">
-              <div class="col-sm-6 col-md-6 col-lg-6 text-center">
-                <ul class="profile__social">
-                  <a
-                    href="https://www.linkedin.com/in/gustavo-antonio-villegas-arbea/"
-                    target="_blank"
-                    class="profile__social-link"
-                  >
-                    <i class="ri-linkedin-box-line"></i>
-                  </a>
-
-                  <a
-                    href="https://github.com/opel777"
-                    class="profile__social-link"
-                    ><i class="ri-github-line"></i>
-                  </a>
-
-                  <a
-                    href="http://gustavovillegas.epizy.com/"
-                    class="profile__social-link"
-                    ><i class="ri-briefcase-line"></i>
-                  </a>
-                </ul>
-              </div>
-              <div class="col-sm-6 col-md-6 col-lg-6 text-center">
+              <div class="col-6 col-sm-6 col-md-6 col-lg-6 text-center button">
                 <button class="btn">
                   <p class="login">login</p>
                 </button>
               </div>
             </div>
           </div>
-        </div> -->
-      </div>
-
-      <div class="col-12 border border-1 m-1 banner conten">
-        <div class="perfil d-flex">
-          <img src="./banner/perfil.png" alt="" class="perfil" />
-          <div class="btn-edit">
-            <a href="#" class="btn-right">
-              <i class="fa fa-pen"></i>
-            </a>
-          </div>
         </div>
       </div>
 
       <!-- div container about  -->
       <div class="col-12 border border-1 m-1 conten">
-        <h2>Acerca de</h2>
-        <p>
-          Soy un informático amante de la tecnología me gusta saber como se
-          hacen las cosas, He trabajado en grandes empresas del sector de las
-          telecomunicaciones durante mas de 20 años tales como Nervicom
-          C.A(Venezuela), Newcom y OSC Serv. de Telecomunicaciones(nokia) en mi
-          nuevo pais de residencia Argentina. Ocupando cargos competentes como
-          Coordinador de Operaciones ocupandome de todo el desarrollo de una
-          infraestuctura implementada por redes inalambricas en la empresa
-          Nervicom,luego despues de mi migracion pude compartir con grandes y
-          compañeros dessarrollando proyectos de conexion e infraestuctura Wi-fi
-          para las escuelas de la Provincia de Buenos Aires, actualmente
-          continuo realizando la implementacion y apliacion de redes de fibra
-          optica por todo el territorio Argentino. Desde hace dos años he
-          decidido orientanme ma a mi carrera al desarrollo de aplicaciones
-          Web/móviles. Actualmente profundizo mi capacidad de alnalisis diseño
-          implementando proyectos realizados en HTML,CSS,JavaScript,React js. y
-          en la actualidad ampliando mi perfil como Desarrollador Full-stack en
-          la plataforma dirigida el Ministerio de desarrollo Productivo, el INTI
-          y Argentina Programa.
-        </p>
+        <!-- <div class="btn-edit d-flex">
+          <a href="#" class="btn-right">
+            <i class="fa fa-pen"></i>
+          </a>
+        </div> -->
+
+        <img class="banner" src="./banner/images9.jpg" />
+        <div class="perfil">
+          <img src="./banner/perfil.png" alt="" class="perfil" />
+        </div>
+        <div class="row row-cols-auto">
+          <div class="col-4 col-sm-3 col-md-3 col-lg-3 titulo">
+            <h1 class="Nombre__perfil text-center">
+              Gustavo Villegas <br />Full Stack Developer
+            </h1>
+            <h1 class="titulo__perfil"></h1>
+          </div>
+          <div class="col-12 col-sm-9 col-md-9 col-lg-9 about">
+            <h2>Acerca de</h2>
+            <p class="acercaDe">
+              Soy un informático amante de la tecnología me gusta saber como se
+              hacen las cosas, He trabajado en grandes empresas del sector de
+              las telecomunicaciones durante mas de 20 años tales como Nervicom
+              C.A(Venezuela), Newcom y OSC Serv. de Telecomunicaciones(nokia) en
+              mi nuevo pais de residencia Argentina. Ocupando cargos competentes
+              como Coordinador de Operaciones ocupandome de todo el desarrollo
+              de una infraestuctura implementada por redes inalambricas en la
+              empresa Nervicom,luego despues de mi migracion pude compartir con
+              grandes y compañeros dessarrollando proyectos de conexion e
+              infraestuctura Wi-fi para las escuelas de la Provincia de Buenos
+              Aires, actualmente continuo realizando la implementacion y
+              apliacion de redes de fibra optica por todo el territorio
+              Argentino. Desde hace dos años he decidido orientanme ma a mi
+              carrera al desarrollo de aplicaciones Web/móviles. Actualmente
+              profundizo mi capacidad de alnalisis diseño implementando
+              proyectos realizados en HTML,CSS,JavaScript,React js. y en la
+              actualidad ampliando mi perfil como Desarrollador Full-stack en la
+              plataforma dirigida el Ministerio de desarrollo Productivo, el
+              INTI y Argentina Programa.
+            </p>
+          </div>
+        </div>
       </div>
       <!-- div container woking-->
 
