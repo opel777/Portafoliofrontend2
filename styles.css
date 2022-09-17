@@ -1,9 +1,9 @@
-/* body {
+body {
   background-image:url(./banner/images14.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
-} */
+}
 
 
 /* --------------------Borde para todos los div-------------------- */
@@ -15,8 +15,11 @@ div.conten{
 }
 
 /* -------------------------------------------------------------------- */
-
-
+.btn-edit{
+  display: flex;
+  padding-left: 97%;
+  padding-top: 5px;
+}
 
 img.banner {
   width: 100%;
@@ -44,26 +47,23 @@ img.perfil{
   padding-left:2vw;
 }
 
-.btn-edit{
-  display: flex;
-  padding-left: 97%;
-  padding-top: 5px;
-}
-div.ministerio{
-  position:relative;
-}
-/* - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+/* ------------------alineacion para los ul y los a de la barra de navegacion --------------- */
 ul.profile__social{
   padding-top:8px;
 }
-
-
 a{
   margin: 3px;
-align-items:center;
+  align-items:center;
   text-decoration: none;
   color: #fff;
 }
+
+
+/* --------------------------------estilos y alineacion para los h1 y h2------------------- */
+
+
+
 h1,h2{
 color: #fff;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -71,29 +71,50 @@ font-size:1.2vw;
 margin-left:-4vw;
 margin-top:4.5vw;
 padding-left:5vw
-
-
+}
+h2,p.experiencia {
+  margin-top:0.1vw; 
+  padding-top: 0.1vw; 
 }
 
+/* ------------------------------estilos para los parrafos---------------------------  ---- */
 
 
 p{
-    
-   text-align: justify;
-    padding:0.7em;
+    text-align: justify;
+    padding:0.9em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.8em;
     color: #fff;    
 }
-/* tamaño de line(iconos redes sociales) */
+/* ------------------------------tamaño de line(iconos redes sociales) --------------------*/
+
+
 .line{
   width:50%;
   height:auto;
 }
-/* button para iniciar sesion login */
+/* -------------------------------button para iniciar sesion login -----------------------*/
+
+.tituloExperiencia{
+  margin-left:2vw;
+}
 .button{
   text-align: center; 
 }
+.imglogo{
+  border-radius:6px;
+ box-shadow: rgb(18, 18, 18);
+
+}
+
+
+.laboral{
+  display: flex;
+}
+
+/* -------------------------------media para telefonos----------------------------------- */
+
 
 @media(max-width:576px){
   h1,h2{
