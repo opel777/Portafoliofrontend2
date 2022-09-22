@@ -15,6 +15,8 @@ div.conten{
 }
 
 /* -------------------------------------------------------------------- */
+
+/* -----------------------------------boton edit--------------------------- */
 .btn-edit{
   display: flex;
   padding-left: 97%;
@@ -29,10 +31,11 @@ img.banner {
   border-radius:10px 10px 0 0;
   
 }
+/* ----------------------------------------------------------------------------------------------------- */
 
 
 
-/* imagen circular de perfil */
+/*----------------------------------------- imagen circular de perfil--------------------------- */
 img.perfil{
     position:absolute; 
     width:29%;
@@ -46,6 +49,7 @@ img.perfil{
   background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(85,85,88,1) 35%, rgba(0,212,255,1) 100%);
   padding-left:2vw;
 }
+/* ----------------------------------------------------------------------------------------------------- */
 
 
 /* ------------------alineacion para los ul y los a de la barra de navegacion --------------- */
@@ -58,11 +62,10 @@ a{
   text-decoration: none;
   color: #fff;
 }
+/* ----------------------------------------------------------------------------------------------------- */
 
 
 /* --------------------------------estilos y alineacion para los h1 y h2------------------- */
-
-
 
 h1,h2{
 color: #fff;
@@ -77,9 +80,10 @@ h2,p.experiencia {
   padding-top: 0.1vw; 
 }
 h1,h2.experiencia{
-  color:#fff
-  /* color: rgba(227, 223, 146, 0.763) */
+  color:#fff  
 }
+/* -------------------------------------------------------------------------------------------- */
+
 
 /* ------------------------------estilos para los parrafos---------------------------  ---- */
 
@@ -90,8 +94,11 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.8em;
     color:#fff
-    /* color: rgba(227, 223, 146, 0.763)    */
+    
 }
+/* ------------------------------------------------------------------------------------------- */
+
+
 /* ------------------------------tamaño de line(iconos redes sociales) --------------------*/
 
 
@@ -99,14 +106,20 @@ p{
   width:50%;
   height:auto;
 }
+
+/* -------------------------------------------------------------------------------------------- */ */
+
 /* -------------------------------button para iniciar sesion login -----------------------*/
+.button{
+  text-align: center; 
+}
+
+/* --------------------------------------------------------------------------------------- */
 
 .tituloExperiencia{
   margin-left:2vw;
 }
-.button{
-  text-align: center; 
-}
+
 .imglogo{
   border-radius:6px;
   box-shadow: 10px 10px 14px 2px rgba(15,15,14,1);
@@ -124,15 +137,14 @@ p{
 @media(max-width:576px){
   h1,h2{
     font-size:2.6vw;
-    margin-top:2vw;
-    margin-left:-1.1vw;
+    margin-top:4.3vw;
+    margin-left:-1.8vw;
   }
 }
 @media(max-width:576px){
   img.perfil{
     margin-left:-1vw;
   }
-}
 
 @media(max-width:576px){
   img.logo{
