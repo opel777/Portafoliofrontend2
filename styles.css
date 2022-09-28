@@ -130,6 +130,154 @@ p{
 .laboral{
   display: flex;
 }
+/* ----------------------------------------------------circular-progress---------------------------------------------- */
+div.progreso{
+  margin:0;
+  padding:1rem;
+  font-family: sans-serif;
+  background-color:rgb(47, 46, 46);
+
+}
+.circular-progress {
+  margin: auto;
+  position: relative;
+}
+.circular-progress, .circular-progress:before, .circular-progress:after {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  
+}
+.circular-progress:before, .circular-progress:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+.circular-progress:before {
+  padding: 0.5em;
+  box-sizing: border-box;
+  
+  font-size: 1.5rem;
+  line-height: 6rem;
+}
+.circular-progress:after {
+  line-height: 13rem;
+}
+.HTML {
+  transform: rotate(126deg);
+  background: linear-gradient(0deg, orange 50%, rgba(255, 165, 0, .2) 50%);
+}
+.HTML:before, .HTML:after {
+  color: orange;
+}
+.HTML:before {
+  content: "HTML";
+  background: rgb(47, 46, 46) content-box;
+  transform: rotate(-126deg);
+}
+.HTML:after {
+  content: "70%";
+  background: linear-gradient(transparent 50%,rgb(47, 46, 46) 50%);
+  transform: scale(1.1) rotate(-126deg);
+}
+.CSS {
+  transform: rotate(117deg);
+  background: linear-gradient(0deg, red 50%, rgba(255, 0, 0, .2) 50%);
+}
+.CSS:before, .CSS:after {
+  color: red;
+}
+.CSS:before {
+  content: "CSS";
+  background:rgb(47, 46, 46) content-box;
+  transform: rotate(-117deg);
+}
+.CSS:after {
+  content: "65%";
+  background: linear-gradient(transparent 50%,rgb(47, 46, 46) 50%);
+  transform: scale(1.1) rotate(-117deg);
+}
+.JS {
+  transform: rotate(72deg);
+  background: linear-gradient(0deg, yellow 50%, rgba(255, 255, 0, .2) 50%);
+}
+.JS:before, .JS:after {
+  color: yellow;
+}
+.JS:before {
+  content: "Js";
+  background: rgba(47, 46, 46) content-box;
+  transform: rotate(-72deg);
+}
+.JS:after {
+  content: "40%";
+  background: linear-gradient(transparent 50%,rgba(47, 46, 46) 50%);
+  transform: scale(1.1) rotate(-72deg);
+}
+/* ------------------------------------------React------------------------------------ */
+.React {
+  transform: rotate(63deg);
+  background: linear-gradient(0deg, blue 50%, rgba(255, 165, 0, .2) 50%);
+}
+.React:before, .React:after {
+  color: blue;
+}
+.React:before {
+  content: "React";
+  background: rgba(47, 46, 46) content-box;
+  transform: rotate(-63deg);
+}
+.React:after {
+  content: "35%";
+  background: linear-gradient(transparent 50%,rgba(47, 46, 46) 50%);
+  transform: scale(1.1) rotate(-63deg);
+}
+/* -----------------------------------------------Angular-------------------------------------------------- */
+.Angular {
+  transform: rotate(81deg);
+  background: linear-gradient(0deg, green 50%, rgba(255, 165, 0, .2) 50%);
+}
+.Angular:before, .Angular:after {
+  color: green;
+}
+.Angular:before {
+  content: "Angular";
+  background: rgba(47, 46, 46) content-box;
+  transform: rotate(-81deg);
+}
+.Angular:after {
+  content: "45%";
+  background: linear-gradient(transparent 50%,rgba(47, 46, 46) 50%);
+  transform: scale(1.1) rotate(-81deg);
+}
+/* -------------------------------------------------------------------------------------------------------------- */
+/* -----------------------------------------------Ruby-------------------------------------------------- */
+.Ruby {
+  transform: rotate(72deg);
+  background: linear-gradient(0deg, purple 50%, rgba(255, 165, 0, .2) 50%);
+}
+.Ruby:before, .Ruby:after {
+  color: purple;
+}
+.Ruby:before {
+  content: "Ruby";
+  background: rgba(47, 46, 46) content-box;
+  transform: rotate(-72deg);
+}
+.Ruby:after {
+  content: "45%";
+  background: linear-gradient(transparent 50%,rgba(47, 46, 46) 50%);
+  transform: scale(1.1) rotate(-72deg);
+}
+/* -------------------------------------------------------------------------------------------------------------- */
+.skills-container{
+  display: flex;
+  flex-wrap:wrap;
+  align-items: center;
+}
+
+/* ----------------------------------------------------------- */
 
 /* -------------------------------media para telefonos----------------------------------- */
 
@@ -150,3 +298,4 @@ p{
   img.logo{
     text-align: center
   }
+}
