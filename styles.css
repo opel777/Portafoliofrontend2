@@ -138,6 +138,9 @@ div.progreso{
   background-color:rgb(47, 46, 46);
 
 }
+.skills-container{
+  margin-top: 2rem;
+}
 .circular-progress {
   margin: auto;
   position: relative;
@@ -270,15 +273,37 @@ div.progreso{
   background: linear-gradient(transparent 50%,rgba(47, 46, 46) 50%);
   transform: scale(1.1) rotate(-72deg);
 }
-/* -------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------Skills container---------------------------------------------------------------------- */
 .skills-container{
   display: flex;
   flex-wrap:wrap;
   align-items: center;
 }
 
-/* ----------------------------------------------------------- */
+/* ---------------------------------------Proyectos------------------------------------------------------------------------------ */
 
+.proyectos{
+  width:100%;
+  display: flex;
+}
+figure{
+  width:25vw;
+  height:25vw ;
+}
+figure img{
+  width: 100%;
+}
+.card{
+  width: 50vh;
+  margin:20px;
+  border-radius:6px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0,0,0.0.2);
+  transition: all 400ms ease;
+}
+.card:hover{
+  transform: translateY(-4%)
+}
 /* -------------------------------media para telefonos----------------------------------- */
 
 
@@ -287,6 +312,9 @@ div.progreso{
     font-size:2.6vw;
     margin-top:4.3vw;
     margin-left:-1.8vw;
+  }
+  body{
+    background-attachment: fixed;
   }
 }
 @media(max-width:576px){
