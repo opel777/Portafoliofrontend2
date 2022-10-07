@@ -82,6 +82,9 @@ h2,p.experiencia {
 h1,h2.experiencia{
   color:#fff  
 }
+h1.educacion,h1.experiencia,h1.skill,h1.proyectos{
+  
+}
 /* -------------------------------------------------------------------------------------------- */
 
 
@@ -282,28 +285,7 @@ div.progreso{
 
 /* ---------------------------------------Proyectos------------------------------------------------------------------------------ */
 
-.proyectos{
-  width:100%;
-  display: flex;
-}
-figure{
-  width:25vw;
-  height:25vw ;
-}
-figure img{
-  width: 100%;
-}
-.card{
-  width: 50vh;
-  margin:20px;
-  border-radius:6px;
-  overflow: hidden;
-  box-shadow: 0px 1px 10px rgba(0,0,0.0.2);
-  transition: all 400ms ease;
-}
-.card:hover{
-  transform: translateY(-4%)
-}
+
 /* -------------------------------media para telefonos----------------------------------- */
 
 
@@ -316,6 +298,7 @@ figure img{
   body{
     background-attachment: fixed;
   }
+  
 }
 @media(max-width:576px){
   img.perfil{
