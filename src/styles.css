@@ -1,5 +1,5 @@
 body {
-  background-image:url(./banner/images14.jpg);
+  background-image:url(assets/banner/images14.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -17,12 +17,33 @@ div.conten{
 /* -------------------------------------------------------------------- */
 
 /* -----------------------------------boton edit--------------------------- */
-.btn-edit{
+.edit_perfil{
   display: flex;
-  padding-left: 97%;
-  padding-top: 5px;
+  position: absolute;
+  padding: 0% 30% 0% 14%;
+  
 }
-
+.edit_banner{
+  display:flex;
+  position: absolute;
+  margin-top:-16.8%;
+  margin-left:81%;
+}
+.edit_Nombre_perfil{
+  display: flex;
+  position: absolute;
+  margin-top: 5vw;
+  margin-left:17%;
+}
+.edit_about{
+  display:flex;
+  position: absolute;
+  margin-top:-3%;
+  margin-left:58%;
+}
+i.edit_about{
+  padding:2px
+}
 img.banner {
   width: 100%;
   height: 17vw;
@@ -82,9 +103,7 @@ h2,p.experiencia {
 h1,h2.experiencia{
   color:#fff  
 }
-h1.educacion,h1.experiencia,h1.skill,h1.proyectos{
-  
-}
+
 /* -------------------------------------------------------------------------------------------- */
 
 
@@ -95,7 +114,7 @@ p{
     text-align: justify;
     padding:0.9em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.8em;
+    font-size: 0.9em;
     color:#fff
     
 }
@@ -286,27 +305,44 @@ div.progreso{
 /* ---------------------------------------Proyectos------------------------------------------------------------------------------ */
 
 
-/* -------------------------------media para telefonos----------------------------------- */
+/* ----------------------------------media para telefonos----------------------------------- */
 
 
-@media(max-width:576px){
+@media (max-width:576px){
   h1,h2{
     font-size:2.6vw;
     margin-top:4.3vw;
+
     margin-left:-1.8vw;
   }
   body{
     background-attachment: fixed;
-  }
-  
+  }  
 }
-@media(max-width:576px){
+@media (max-width:576px){
   img.perfil{
     margin-left:-1vw;
   }
-
-@media(max-width:576px){
+  .edit_perfil{
+    margin:-2% 6%;
+  }
+  i.edit_perfil{
+    width:0.1%
+  }
+  .edit_banner{
+   margin-left:88%;
+  }
+  .edit_Nombre_perfil{
+    margin-left: 28vw;
+  }
+}
+@media (max-width:576px){
   img.logo{
     text-align: center
   }
 }
+/* ------------------------------------Tablets--------------------------------------- */
+
+/* ------------------------------------desktop-------------------------------------- */
+
+/* ---------------------------------large desltop----------------------------------- */
