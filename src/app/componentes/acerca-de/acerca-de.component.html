@@ -19,9 +19,8 @@
         </a>
       </div>
       <h1 class="Nombre__perfil text-center">
-        Gustavo Villegas <br />Full Stack Developer
+        {{ miPorfolio.name }}<br />{{ miPorfolio.position }}
       </h1>
-      <h1 class="titulo__perfil"></h1>
     </div>
     <div class="col-12 col-sm-9 col-md-9 col-lg-9 about">
       <h1>ACERCA DE</h1>
@@ -33,17 +32,7 @@
           ><i class="fa-sharp fa-solid fa-xmark"></i
         ></a>
       </div>
-
-      <p class="acercaDe">
-        Soy un informático amante de la tecnología me gusta aprender como se
-        hacen las cosas. Desde hace dos años he adquirido conocimientos más
-        profundos desarrollando aplicaciones Web/móviles. Actualmente profundizo
-        mi capacidad de análisis diseño implementando proyectos realizados en
-        HTML, CSS, JavaScript, Ruby, React js. y en la actualidad ampliando mi
-        perfil como Desarrollador Full-stack agregando al stack tecnológico
-        Angular, MySql,Java, Spring Boot en la plataforma dirigida el Ministerio
-        de desarrollo Productivo, el INTI y Argentina Programa
-      </p>
+      <p class="acercaDe">{{ miPorfolio.about }}</p>
     </div>
   </div>
 </div>
