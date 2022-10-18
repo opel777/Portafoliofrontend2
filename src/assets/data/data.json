@@ -1,0 +1,154 @@
+{
+    "name": "Gustavo Villegas",
+    "backImage": "/carpeta imagen",
+    "image": "/carpeta/carpeta.image",
+    "position": "Full Stack Developer",
+    "about": "Soy un informático amante de la tecnología me gusta aprender como se hacen las cosas. Desde hace dos años he adquirido conocimientos más profundos desarrollando aplicaciones Web/móviles. Actualmente profundizo mi capacidad de análisis diseño implementando proyectos realizados en HTML, CSS, JavaScript, Ruby, React js. y en la actualidad ampliando mi perfil como Desarrollador Full-stack agregando al stack tecnológico Angular, MySql,Java, Spring Boot en la plataforma dirigida el Ministerio de desarrollo Productivo, el INTI y Argentina Programa",
+    "experience": [
+      {
+        "img": "/carpeta",
+        "company": "ID FOR IDEAS",
+        "position1": "Full Stack Developer",
+        "start": "Marzo.2022",
+        "end": "Junio.2022",
+        "descriptionPosition": "Desarrollo general del maquetado de los proyectos establecidos, dar forma y crear funcionalidades.\nImplementar base de datos y conectividad back-end"
+      },
+      {
+        "img": "/carpeta",
+        "company": "OSC SERVICIOS DE TELECOMUNICACIONES",
+        "position1": "Ing. Obra y Proyectos Red Optica",
+        "start": "Dic-2018",
+        "end": "Marz-2022",
+        "descriptionPosition": "Relevamientos generales para la implementacion de nodos/anillos de la red Optica Argentina.\nVerificacion, instalacion y puesta en marcha de sistemas DWDM Nokia Argentina"
+      },
+      {
+        "img": "/carpeta",
+        "company": "NEWCOM",
+        "position1": "Ing. Obra y Proyectos zona Wi-Fi",
+        "start": "Ene-2017",
+        "end": "Nov-2018",
+        "descriptionPosition": "Relevamientos generales para la implementación de redes Wi-Fi para los colegios de las unidades educativas del Gran Buenos Aires\nVerificación, instalación y supervisión de actividades del personal."
+      },
+      {
+        "img": "/carpeta",
+        "company": "NERVICOM C.A",
+        "position1": "Coordinador Operaciones",
+        "start": "Ene-2000",
+        "end": "Junio-2017",
+        "descriptionPosition": "Diseñar, crear e implementar redes Microondas por el territorio Venezolano, Monitoreo general de la infraestrutura creada.\nSupervision, adiestramiento del personal, desarrollar en conjunto con el departamento de tecnolgia nuevos diseños para la implementacion de las necesidades de nuevos clientes."
+      }
+    ],
+    "Education": [
+      {
+        "img": "/carpeta",
+        "instituto": "ARGENTINA PROGRAMA",
+        "areaEstudio": "DESARROLLO DE SOFTWARE",
+        "position1": "Full Stack Developer",
+        "start": "Marzo-2022",
+        "end": "Ener-2023",
+        "descriptionPosition": "Desarrollo web Full Stack, generar proyectos en HTML, CSS y Boostrap apartir de plantillas predeterminadas, Uso e implementacion de TypeScript. Creacion de proyectos en Angular basado en prototipos estaticos para crear aplicaciones SPA.Creacion de Bases de Datos MySQL y MariaDB, POO, Java, Java Sprint Boot, Seguridad JWT, DevOps, Scrum,Git."
+      },
+      {
+        "img": "/carpeta",
+        "instituto": "EDUCACION IT",
+        "areaEstudio": "TESTING",
+        "position1": "Analista QA/Tester QA",
+        "start": "Nov-2021",
+        "end": "Febr-2022",
+        "descriptionPosition": "Testing focalizado en el Análisis de Requerimientos / Casos de Uso / Historias de Usuario y en el Diseño de Casos de Prueba.Planes de Prueba para el Desarrollo de Software, Software Tester QA participando en Proyectos de Testing completos."
+      },
+      {
+        "img": "/carpeta",
+        "instituto": "UDEMY",
+        "areaEstudio": "PLATAFORMA DE CURSOS",
+        "position1": "Front-End/Back-End",
+        "start": "Ener-2020",
+        "end": "Actualidad",
+        "descriptionPosition": "En esta Plataforma e ido incrementando mis conocimientos en general a lo que el desarrollo se refiere incursionando en tegnologia adaptadas a la actualidad para asi poder disponer de un stack tegnologico que me permita destacar en el mercado.En esta plataforma e adquirido conoicimiento mas profundos en HTML, CSS, SASS, JavaScript, React Js, Angular entre otros."
+      },
+      {
+        "img": "/carpeta",
+        "instituto": "ESCUELA DE SISTEMAS INFORMATICOS",
+        "areaEstudio": "DESARROLLO WEB",
+        "position1": "WEB-MASTER",
+        "start": "JUN-2017",
+        "end": "NOV-2017",
+        "descriptionPosition": "Diseñar, crear e implementar sitios web, uso de tecnologias como Html,Css,JavaScript para dar forma a template o diseños responsable del diseño web, la funcionalidad y otros elementos del lado del cliente"
+      },
+      {
+        "img": "/carpeta",
+        "instituto": "INSTITUTO UNIVERSITARIO POLITECNICO SANTIAGO MARIÑO",
+        "areaEstudio": "INGENIRIA DE SISTEMAS",
+        "position1": "INGENIERO EN SISTEMAS",
+        "start": "ENER-2008",
+        "end": "JUL-2013",
+        "descriptionPosition": "Diseñar, programar, implementación y mantenimiento de sistemas. Incorpora métodos para optimizar el rendimiento económico. Evalúar costo, efectividad de los recursos, máquinas y técnicas implementadas en estos sistemas. Corregir la marcha de las diferentes etapas de un proyecto. Definir en combinación con la gerencia las necesidades de una organización. Formular planes que permitan integrar diferentes proyectos de un programa general de desarrollo, manejar adecuadamente las relaciones humanas y mantener una visión global del mundo."
+      }
+    ],
+    "proyectos": [
+      {
+        "img": "/carpeta",
+        "name": "PORTFOLIO",
+        "technology": "ANGULAR/JAVA/MYSQL",
+        "start": "Marzo.2022",
+        "end": "Ener-2023",
+        "descriptionPosition": "Desarrollo web Full Stack, generar proyectos en HTML, CSS y Boostrap apartir de plantillas predeterminadas y mostrar porfolio estructurado por Argentina Programa, Uso e implementacion de TypeScript. Creacion de proyectos en Angular basado en prototipos estaticos para crear aplicaciones SPA.Creacion de Bases de Datos MySQL y MariaDB, POO, Java, Java Sprint Boot, Seguridad JWT, DevOps, Scrum,Git."
+      },
+      {
+        "img": "/carpeta",
+        "name": "PORTFOLIO MINIMALISTA",
+        "technology": "HTML/CSS/JS",
+        "start": "MAY-2022",
+        "end": "MAY-2023",
+        "descriptionPosition": "Desarrollo web diseñado para mostrar porfolio, este proyecto fue realizado para mostrar de manera minimalista un pequeño cv mostrando habilidades o skill dando un poco de animacion al sitio y generando un poco de atracion a ver el sitio y mostrar de manera sencilla mis conocimiento y areas de estudio.Tambien podras encontar una seccion de contacto directo a WhatsApp y tambien podras descargar mi ultimo cv actualizado"
+      },
+      {
+        "img": "/carpeta",
+        "name": "SPA DE UÑAS",
+        "technology": "HTML/CSS/PHP/JS",
+        "start": "MAY-2022",
+        "end": "JUN-2022",
+        "descriptionPosition": "Desarrollo web SPA NAILS, este proyecto completo realizado para un sitio estetico de uñas, esta web fue diseñada para mostrar este establecimiento y donde se puede visualizar la gelocalizacion del sitio, ademas se agrego una seccion donde semuestran las reseñas GOOLGLE del establecimiento, los trabajos realizados tomados de instagram y adicional se enlaza con un gestor de citas y asi poder agendar algun tipoo de servicio que ofrece este. Alguna vez te hiciste un servicio en tus manos o pies?"
+      },
+      {
+        "img": "/carpeta",
+        "name": "APP PELICULAS",
+        "technology": "REACT JS",
+        "start": "MAY-2022",
+        "end": "JUN-2022",
+        "descriptionPosition": "Desarrollo de App de peliculas, esta app fue realizada en React Js la cual extraemos de una Api la informacion y la pintamos en pantalla.Esta app muestra un listado inicial de las peliculas mas relevantes y adicional al hacer click en cada una podemos mostrar una pequeñla descripcion de cada una, tambie se agrego un buscador para si poder buscar nuestra peli favorita."
+      },
+      {
+        "img": "/carpeta",
+        "name": "CALCULADORA",
+        "technology": "HTML/CSS/JS",
+        "start": "MAY-2021",
+        "end": "JUN-2021",
+        "descriptionPosition": "Desarrollo de calculadora desarrollada con HTML/CSS, JavaScript, se uso css grid y flex box para la estructura de la calculadora para su funciones se uso javascript y asi darle dinamismo a la misma.te invito a probarla.."
+      },
+      {
+        "img": "/carpeta",
+        "name": "APP HEROES",
+        "technology": "REACT JS",
+        "start": "JUN-2021",
+        "end": "AGOST-2021",
+        "descriptionPosition": "Desarrollo de APP Herores Marvel y DC Comics, este proyecto fue realizado con React js para obtener informacionde Appis y extraer el Heroe de eleccion puedes buscar y selleccionar el de tu preferencia y ver informacion de cada HeroeL.Cual es tu Heroe favorito?"
+      },
+      {
+        "img": "/carpeta",
+        "name": "CARD TRAVEL",
+        "technology": "HTML/CSS",
+        "start": "JUL-2021",
+        "end": "Ener-2023",
+        "descriptionPosition": "Desarrollo card web y poder generar una serie de card o plantillas para un sitio web de viajes o turismo, usando estos ejemplos se puede generar una galeria y mostrar servicios hospedajes etc. A donde te gustaria ir en tus proiximas vacaciones?"
+      },
+      {
+        "img": "/carpeta",
+        "name": "ANIMACIONES",
+        "technology": "HTML/CSS",
+        "start": "JUL-2021",
+        "end": "AGOST-2021",
+        "descriptionPosition": "Desarrollo de grilla con animaciones infinitas, en cada reuadro podemos ejemplificar diferentes tipos de formas geometricas a las cuales le podemos dar animaciones dando una vista 3d te gustaria usarla como loader en tu proyecto!"
+      }
+    ]
+  }

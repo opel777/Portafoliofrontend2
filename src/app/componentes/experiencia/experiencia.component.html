@@ -14,7 +14,7 @@
     </div>
 
     <div class="col-9 col-sm-10 col-md-10 col-lg-10">
-      <h2 class="experiencia">ID FOR IDEAS</h2>
+      <h2 class="experiencia">{{ miPorfolio.experience[0].company }}</h2>
       <div class="edit_about">
         <a href="#" class="edit-right">
           <i class="fa fa-pen"></i>
@@ -23,12 +23,12 @@
           ><i class="fa-sharp fa-solid fa-xmark"></i
         ></a>
       </div>
-      <h2 class="experiencia">Full-Stack Developer</h2>
-      <h2 class="experiencia">mar.2022-actualidad</h2>
+      <h2 class="experiencia">{{ miPorfolio.experience[0].position1 }}</h2>
+      <h2 class="experiencia">
+        {{ miPorfolio.experience[0].start }}-{{ miPorfolio.experience[0].end }}
+      </h2>
       <p class="experiencia">
-        Desarrollo general del maquetado de los proyectos establecidos, dando
-        forma y creando funcionalidades. <br />Implementar base de datos y
-        conectividad back-end
+        {{ miPorfolio.experience[0].descriptionPosition }}
       </p>
     </div>
     <div class="col-3 col-sm-2 col-md-2 col-lg-2 logoTrabajo text-center">
