@@ -3,35 +3,35 @@
     <div class="col-12 tituloExperiencia">
       <h1 class="experiencia">EXPERIENCIA</h1>
     </div>
-    <div class="col-3 col-sm-2 col-md-2 col-lg-2 logoTrabajo text-center">
-      <img
-        src="assets/banner/idforideas.jpg"
-        alt="yo programo"
-        width="55%"
-        height="auto"
-        class="mx-auto d-block imglogo"
-      />
-    </div>
-
-    <div class="col-9 col-sm-10 col-md-10 col-lg-10">
-      <h2 class="experiencia">{{ miPorfolio.experience[0].company }}</h2>
-      <div class="edit_about">
-        <a href="#" class="edit-right">
-          <i class="fa fa-pen"></i>
-        </a>
-        <a href="#" class="delete"
-          ><i class="fa-sharp fa-solid fa-xmark"></i
-        ></a>
+    <div *ngFor="let experience of miPorfolio">
+      <div class="col-3 col-sm-2 col-md-2 col-lg-2 logoTrabajo text-center">
+        <img
+          [src]="experience.img"
+          alt="yo programo"
+          width="55% "
+          height="auto"
+          class="mx-auto d-block imglogo"
+        />
       </div>
-      <h2 class="experiencia">{{ miPorfolio.experience[0].position1 }}</h2>
-      <h2 class="experiencia">
-        {{ miPorfolio.experience[0].start }}-{{ miPorfolio.experience[0].end }}
-      </h2>
-      <p class="experiencia">
-        {{ miPorfolio.experience[0].descriptionPosition }}
-      </p>
+
+      <div class="col-9 col-sm-10 col-md-10 col-lg-10">
+        <h2 class="experiencia">{{ experience.company }}</h2>
+        <div class="edit_about">
+          <a href="#" class="edit-right">
+            <i class="fa fa-pen"></i>
+          </a>
+          <a href="#" class="delete"
+            ><i class="fa-sharp fa-solid fa-xmark"></i
+          ></a>
+        </div>
+        <h2 class="experiencia">{{ experience.position1 }}</h2>
+        <h2 class="experiencia">{{ experience.start }}-{{ experience.end }}</h2>
+        <p class="experiencia">
+          {{ experience.descriptionPosition }}
+        </p>
+      </div>
     </div>
-    <div class="col-3 col-sm-2 col-md-2 col-lg-2 logoTrabajo text-center">
+    <!-- <div class="col-3 col-sm-2 col-md-2 col-lg-2 logoTrabajo text-center">
       <img
         src="assets/banner/Osc.jpg"
         alt="yo programo"
@@ -114,6 +114,6 @@
         de tecnolgia nuevos diseños para la implementacion de las necesidades de
         nuevos clientes.
       </p>
-    </div>
+    </div> -->
   </div>
 </div>

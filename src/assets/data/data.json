@@ -1,12 +1,12 @@
 {
     "name": "Gustavo Villegas",
-    "backImage": "/carpeta imagen",
-    "image": "/carpeta/carpeta.image",
+    "backImage": "assets/banner/images9.jpg",
+    "image": "assets/banner/perfil.png",
     "position": "Full Stack Developer",
     "about": "Soy un informático amante de la tecnología me gusta aprender como se hacen las cosas. Desde hace dos años he adquirido conocimientos más profundos desarrollando aplicaciones Web/móviles. Actualmente profundizo mi capacidad de análisis diseño implementando proyectos realizados en HTML, CSS, JavaScript, Ruby, React js. y en la actualidad ampliando mi perfil como Desarrollador Full-stack agregando al stack tecnológico Angular, MySql,Java, Spring Boot en la plataforma dirigida el Ministerio de desarrollo Productivo, el INTI y Argentina Programa",
     "experience": [
       {
-        "img": "/carpeta",
+        "img": "assets/banner/idforideas.jpg",
         "company": "ID FOR IDEAS",
         "position1": "Full Stack Developer",
         "start": "Marzo.2022",
@@ -14,7 +14,7 @@
         "descriptionPosition": "Desarrollo general del maquetado de los proyectos establecidos, dar forma y crear funcionalidades.\nImplementar base de datos y conectividad back-end"
       },
       {
-        "img": "/carpeta",
+        "img": "assets/banner/Osc.jpg",
         "company": "OSC SERVICIOS DE TELECOMUNICACIONES",
         "position1": "Ing. Obra y Proyectos Red Optica",
         "start": "Dic-2018",
@@ -22,7 +22,7 @@
         "descriptionPosition": "Relevamientos generales para la implementacion de nodos/anillos de la red Optica Argentina.\nVerificacion, instalacion y puesta en marcha de sistemas DWDM Nokia Argentina"
       },
       {
-        "img": "/carpeta",
+        "img": "assets/banner/Newcom.jpg",
         "company": "NEWCOM",
         "position1": "Ing. Obra y Proyectos zona Wi-Fi",
         "start": "Ene-2017",
@@ -30,7 +30,7 @@
         "descriptionPosition": "Relevamientos generales para la implementación de redes Wi-Fi para los colegios de las unidades educativas del Gran Buenos Aires\nVerificación, instalación y supervisión de actividades del personal."
       },
       {
-        "img": "/carpeta",
+        "img": "assets/banner/Nervicom.jpeg",
         "company": "NERVICOM C.A",
         "position1": "Coordinador Operaciones",
         "start": "Ene-2000",
