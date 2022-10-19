@@ -3,37 +3,36 @@
     <div class="col-12 titulo_proyectos">
       <h1 class="proyectos">PROYECTOS</h1>
     </div>
-    <div class="col-3 col-sm-2 col-md-2 col-lg-2 logoTrabajo text-center">
-      <img
-        src="assets/banner/project8.jpeg"
-        alt="yo programo"
-        width="85%"
-        height="auto"
-        class="mx-auto d-block imglogo"
-      />
-    </div>
-    <div class="col-9 col-sm-10 col-md-10 col-lg-10">
-      <h2 class="nombre_proyectos">PORFOLIO</h2>
-      <div class="edit_about">
-        <a href="#" class="edit-right">
-          <i class="fa fa-pen"></i>
-        </a>
-        <a href="#" class="delete"
-          ><i class="fa-sharp fa-solid fa-xmark"></i
-        ></a>
+    <div class="componentes" *ngFor="let proyectos of miPorfolio">
+      <div class="col-3 col-sm-2 col-md-2 col-lg-2 logoTrabajo text-center">
+        <img
+          [src]="proyectos.img"
+          alt="yo programo"
+          width="85%"
+          height="auto"
+          class="mx-auto d-block imglogo"
+        />
       </div>
-      <h2 class="tegnologia_proyectos">ANGULAR/JAVA/MYSQL</h2>
-      <h2 class="fecha_proyectos">MARZ.2022-ENER.2023</h2>
-      <p class="descripcion_proyectos">
-        Desarrollo web Full Stack, generar proyectos en HTML, CSS y Boostrap
-        apartir de plantillas predeterminadas y mostrar porfolio estructurado
-        por Argentina Programa, Uso e implementacion de TypeScript. Creacion de
-        proyectos en Angular basado en prototipos estaticos para crear
-        aplicaciones SPA.<br />Creacion de Bases de Datos MySQL y MariaDB, POO,
-        Java, Java Sprint Boot, Seguridad JWT, DevOps, Scrum,Git.
-      </p>
+      <div class="col-9 col-sm-10 col-md-10 col-lg-10">
+        <h2 class="nombre_proyectos">{{ proyectos.name }}</h2>
+        <div class="edit_about">
+          <a href="#" class="edit-right">
+            <i class="fa fa-pen"></i>
+          </a>
+          <a href="#" class="delete"
+            ><i class="fa-sharp fa-solid fa-xmark"></i
+          ></a>
+        </div>
+        <h2 class="tegnologia_proyectos">{{ proyectos.technology }}</h2>
+        <h2 class="fecha_proyectos">
+          {{ proyectos.start }}-{{ proyectos.end }}
+        </h2>
+        <p class="descripcion_proyectos">
+          {{ proyectos.descriptionPosition }}
+        </p>
+      </div>
     </div>
-    <div class="col-3 col-sm-2 col-md-2 col-lg-2 logoTrabajo text-center">
+    <!-- <div class="col-3 col-sm-2 col-md-2 col-lg-2 logoTrabajo text-center">
       <img
         src="assets/banner/project7.jpeg"
         alt="yo programo"
@@ -240,6 +239,6 @@
         podemos dar animaciones dando una vista 3d<br />te gustaria usarla como
         loader en tu proyecto!
       </p>
-    </div>
+    </div> -->
   </div>
 </div>

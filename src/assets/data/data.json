@@ -1,6 +1,6 @@
 {
     "name": "Gustavo Villegas",
-    "backImage": "assets/banner/images9.jpg",
+    "imgbanner": "assets/banner/images9.jpg",
     "image": "assets/banner/perfil.png",
     "position": "Full Stack Developer",
     "about": "Soy un informático amante de la tecnología me gusta aprender como se hacen las cosas. Desde hace dos años he adquirido conocimientos más profundos desarrollando aplicaciones Web/móviles. Actualmente profundizo mi capacidad de análisis diseño implementando proyectos realizados en HTML, CSS, JavaScript, Ruby, React js. y en la actualidad ampliando mi perfil como Desarrollador Full-stack agregando al stack tecnológico Angular, MySql,Java, Spring Boot en la plataforma dirigida el Ministerio de desarrollo Productivo, el INTI y Argentina Programa",
@@ -40,7 +40,7 @@
     ],
     "Education": [
       {
-        "img": "/carpeta",
+        "img": "assets/banner/Inti2.jpeg",
         "instituto": "ARGENTINA PROGRAMA",
         "areaEstudio": "DESARROLLO DE SOFTWARE",
         "position1": "Full Stack Developer",
@@ -49,7 +49,7 @@
         "descriptionPosition": "Desarrollo web Full Stack, generar proyectos en HTML, CSS y Boostrap apartir de plantillas predeterminadas, Uso e implementacion de TypeScript. Creacion de proyectos en Angular basado en prototipos estaticos para crear aplicaciones SPA.Creacion de Bases de Datos MySQL y MariaDB, POO, Java, Java Sprint Boot, Seguridad JWT, DevOps, Scrum,Git."
       },
       {
-        "img": "/carpeta",
+        "img": "assets/banner/educacion It.jpeg",
         "instituto": "EDUCACION IT",
         "areaEstudio": "TESTING",
         "position1": "Analista QA/Tester QA",
@@ -58,7 +58,7 @@
         "descriptionPosition": "Testing focalizado en el Análisis de Requerimientos / Casos de Uso / Historias de Usuario y en el Diseño de Casos de Prueba.Planes de Prueba para el Desarrollo de Software, Software Tester QA participando en Proyectos de Testing completos."
       },
       {
-        "img": "/carpeta",
+        "img": "assets/banner/Udemy.jpeg",
         "instituto": "UDEMY",
         "areaEstudio": "PLATAFORMA DE CURSOS",
         "position1": "Front-End/Back-End",
@@ -67,7 +67,7 @@
         "descriptionPosition": "En esta Plataforma e ido incrementando mis conocimientos en general a lo que el desarrollo se refiere incursionando en tegnologia adaptadas a la actualidad para asi poder disponer de un stack tegnologico que me permita destacar en el mercado.En esta plataforma e adquirido conoicimiento mas profundos en HTML, CSS, SASS, JavaScript, React Js, Angular entre otros."
       },
       {
-        "img": "/carpeta",
+        "img": "assets/banner/escuela sistemas informaticos.jpg",
         "instituto": "ESCUELA DE SISTEMAS INFORMATICOS",
         "areaEstudio": "DESARROLLO WEB",
         "position1": "WEB-MASTER",
@@ -76,7 +76,7 @@
         "descriptionPosition": "Diseñar, crear e implementar sitios web, uso de tecnologias como Html,Css,JavaScript para dar forma a template o diseños responsable del diseño web, la funcionalidad y otros elementos del lado del cliente"
       },
       {
-        "img": "/carpeta",
+        "img": "assets/banner/Santiago Mariño.png",
         "instituto": "INSTITUTO UNIVERSITARIO POLITECNICO SANTIAGO MARIÑO",
         "areaEstudio": "INGENIRIA DE SISTEMAS",
         "position1": "INGENIERO EN SISTEMAS",
@@ -87,7 +87,7 @@
     ],
     "proyectos": [
       {
-        "img": "/carpeta",
+        "img": "assets/banner/project8.jpeg",
         "name": "PORTFOLIO",
         "technology": "ANGULAR/JAVA/MYSQL",
         "start": "Marzo.2022",
@@ -95,7 +95,7 @@
         "descriptionPosition": "Desarrollo web Full Stack, generar proyectos en HTML, CSS y Boostrap apartir de plantillas predeterminadas y mostrar porfolio estructurado por Argentina Programa, Uso e implementacion de TypeScript. Creacion de proyectos en Angular basado en prototipos estaticos para crear aplicaciones SPA.Creacion de Bases de Datos MySQL y MariaDB, POO, Java, Java Sprint Boot, Seguridad JWT, DevOps, Scrum,Git."
       },
       {
-        "img": "/carpeta",
+        "img": "assets/banner/project7.jpeg",
         "name": "PORTFOLIO MINIMALISTA",
         "technology": "HTML/CSS/JS",
         "start": "MAY-2022",
@@ -103,7 +103,7 @@
         "descriptionPosition": "Desarrollo web diseñado para mostrar porfolio, este proyecto fue realizado para mostrar de manera minimalista un pequeño cv mostrando habilidades o skill dando un poco de animacion al sitio y generando un poco de atracion a ver el sitio y mostrar de manera sencilla mis conocimiento y areas de estudio.Tambien podras encontar una seccion de contacto directo a WhatsApp y tambien podras descargar mi ultimo cv actualizado"
       },
       {
-        "img": "/carpeta",
+        "img": "assets/banner/project6.jpg",
         "name": "SPA DE UÑAS",
         "technology": "HTML/CSS/PHP/JS",
         "start": "MAY-2022",
@@ -111,7 +111,7 @@
         "descriptionPosition": "Desarrollo web SPA NAILS, este proyecto completo realizado para un sitio estetico de uñas, esta web fue diseñada para mostrar este establecimiento y donde se puede visualizar la gelocalizacion del sitio, ademas se agrego una seccion donde semuestran las reseñas GOOLGLE del establecimiento, los trabajos realizados tomados de instagram y adicional se enlaza con un gestor de citas y asi poder agendar algun tipoo de servicio que ofrece este. Alguna vez te hiciste un servicio en tus manos o pies?"
       },
       {
-        "img": "/carpeta",
+        "img": "assets/banner/project1.jpg",
         "name": "APP PELICULAS",
         "technology": "REACT JS",
         "start": "MAY-2022",
@@ -119,7 +119,7 @@
         "descriptionPosition": "Desarrollo de App de peliculas, esta app fue realizada en React Js la cual extraemos de una Api la informacion y la pintamos en pantalla.Esta app muestra un listado inicial de las peliculas mas relevantes y adicional al hacer click en cada una podemos mostrar una pequeñla descripcion de cada una, tambie se agrego un buscador para si poder buscar nuestra peli favorita."
       },
       {
-        "img": "/carpeta",
+        "img": "assets/banner/project2.jpg",
         "name": "CALCULADORA",
         "technology": "HTML/CSS/JS",
         "start": "MAY-2021",
@@ -127,7 +127,7 @@
         "descriptionPosition": "Desarrollo de calculadora desarrollada con HTML/CSS, JavaScript, se uso css grid y flex box para la estructura de la calculadora para su funciones se uso javascript y asi darle dinamismo a la misma.te invito a probarla.."
       },
       {
-        "img": "/carpeta",
+        "img": "assets/banner/project3.jpg",
         "name": "APP HEROES",
         "technology": "REACT JS",
         "start": "JUN-2021",
@@ -135,7 +135,7 @@
         "descriptionPosition": "Desarrollo de APP Herores Marvel y DC Comics, este proyecto fue realizado con React js para obtener informacionde Appis y extraer el Heroe de eleccion puedes buscar y selleccionar el de tu preferencia y ver informacion de cada HeroeL.Cual es tu Heroe favorito?"
       },
       {
-        "img": "/carpeta",
+        "img": "assets/banner/project4.jpg",
         "name": "CARD TRAVEL",
         "technology": "HTML/CSS",
         "start": "JUL-2021",
@@ -143,7 +143,7 @@
         "descriptionPosition": "Desarrollo card web y poder generar una serie de card o plantillas para un sitio web de viajes o turismo, usando estos ejemplos se puede generar una galeria y mostrar servicios hospedajes etc. A donde te gustaria ir en tus proiximas vacaciones?"
       },
       {
-        "img": "/carpeta",
+        "img": "assets/banner/project5.jpg",
         "name": "ANIMACIONES",
         "technology": "HTML/CSS",
         "start": "JUL-2021",
