@@ -21,7 +21,6 @@
             "assets": [
               "src/favicon.ico",
               "src/assets"
-              
             ],
             "styles": [
               "src/styles.css"
@@ -94,6 +93,14 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/portafoliofrontend",
+            "netlifyToken": "",
+            "siteId": ""
           }
         }
       }
