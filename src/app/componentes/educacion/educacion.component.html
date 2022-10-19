@@ -3,160 +3,33 @@
     <div class="col-12 tituloExperiencia">
       <h1 class="educacion">EDUCACION</h1>
     </div>
-    <div class="col-3 col-sm-2 col-md-2 col-lg-2 logoTrabajo text-center">
-      <img
-        src="assets/banner/Inti2.jpeg"
-        alt="yo programo"
-        width="55%"
-        height="auto"
-        class="mx-auto d-block imglogo"
-      />
-    </div>
-    <div class="col-9 col-sm-10 col-md-10 col-lg-10">
-      <h2 class="instituto">ARGENTINA PROGRAMA</h2>
-      <div class="edit_about">
-        <a href="#" class="edit-right">
-          <i class="fa fa-pen"></i>
-        </a>
-        <a href="#" class="delete"
-          ><i class="fa-sharp fa-solid fa-xmark"></i
-        ></a>
+    <div class="componentes" *ngFor="let Education of miPorfolio">
+      <div class="col-3 col-sm-2 col-md-2 col-lg-2 logoTrabajo text-center">
+        <img
+          [src]="Education.img"
+          alt="yo programo"
+          width="55%"
+          height="auto"
+          class="mx-auto d-block imglogo"
+        />
       </div>
-      <h2 class="area_estudio">DESARROLLO</h2>
-      <h2 class="nombre_titulo">FULL STACK DEVELOPER</h2>
-      <h2 class="periodo_estudio">MARZ.2022-ENER.2023</h2>
-      <p class="perfil_egresado">
-        Desarrollo web Full Stack, generar proyectos en HTML, CSS y Boostrap
-        apartir de plantillas predeterminadas, Uso e implementacion de
-        TypeScript. Creacion de proyectos en Angular basado en prototipos
-        estaticos para crear aplicaciones SPA.<br />Creacion de Bases de Datos
-        MySQL y MariaDB, POO, Java, Java Sprint Boot, Seguridad JWT, DevOps,
-        Scrum,Git.
-      </p>
-    </div>
-    <div class="col-3 col-sm-2 col-md-2 col-lg-2 logoTrabajo text-center">
-      <img
-        src="assets/banner/educacion It.jpeg"
-        alt="yo programo"
-        width="55%"
-        height="auto"
-        class="mx-auto d-block imglogo"
-      />
-    </div>
-    <div class="col-9 col-sm-10 col-md-10 col-lg-10">
-      <h2 class="instituto">EDUCACION IT</h2>
-      <div class="edit_about">
-        <a href="#" class="edit-right">
-          <i class="fa fa-pen"></i>
-        </a>
-        <a href="#" class="delete"
-          ><i class="fa-sharp fa-solid fa-xmark"></i
-        ></a>
+      <div class="col-9 col-sm-10 col-md-10 col-lg-10">
+        <h2 class="instituto">{{ Education.instituto }}</h2>
+        <div class="edit_about">
+          <a href="#" class="edit-right">
+            <i class="fa fa-pen"></i>
+          </a>
+          <a href="#" class="delete"
+            ><i class="fa-sharp fa-solid fa-xmark"></i
+          ></a>
+        </div>
+        <h2 class="area_estudio">{{ Education.areaEstudio }}</h2>
+        <h2 class="nombre_titulo">{{ Education.position1 }}</h2>
+        <h2 class="periodo_estudio">
+          {{ Education.start }}-{{ Education.end }}
+        </h2>
+        <p class="perfil_egresado">{{ Education.descriptionPosition }}</p>
       </div>
-      <h2 class="area_estudio">TESTING</h2>
-      <h2 class="nombre_titulo">ANALISTA QA/ TESTER QA</h2>
-      <h2 class="periodo_estudio">NOV.2021-FEBR.2022</h2>
-      <p class="perfil_egresado">
-        Testing focalizado en el Análisis de Requerimientos / Casos de Uso /
-        Historias de Usuario y en el Diseño de Casos de Prueba.<br />Planes de
-        Prueba para el Desarrollo de Software, Software Tester QA participando
-        en Proyectos de Testing completos.
-      </p>
-    </div>
-    <div class="col-3 col-sm-2 col-md-2 col-lg-2 logoTrabajo text-center">
-      <img
-        src="assets/banner/Udemy.jpeg"
-        alt="yo programo"
-        width="55%"
-        height="auto"
-        class="mx-auto d-block imglogo"
-      />
-    </div>
-    <div class="col-9 col-sm-10 col-md-10 col-lg-10">
-      <h2 class="instituto">UDEMY</h2>
-      <div class="edit_about">
-        <a href="#" class="edit-right">
-          <i class="fa fa-pen"></i>
-        </a>
-        <a href="#" class="delete"
-          ><i class="fa-sharp fa-solid fa-xmark"></i
-        ></a>
-      </div>
-      <h2 class="area_estudio">PLATAFORMA DE CURSOS</h2>
-      <h2 class="nombre_titulo">FRONT-END/BACK-END</h2>
-      <h2 class="periodo_estudio">Ener.2020-Actualidad</h2>
-      <p class="perfil_egresado">
-        En esta Plataforma e ido incrementando mis conocimientos en general a lo
-        que el desarrollo se refiere incursionando en tegnologia adaptadas a la
-        actualidad para asi poder disponer de un stack tegnologico que me
-        permita destacar en el mercado<br />En esta plataforma e adquirido
-        conoicimiento mas profundos en HTML, CSS, SASS, JavaScript, React Js,
-        Angular entre otros.
-      </p>
-    </div>
-
-    <div class="col-3 col-sm-2 col-md-2 col-lg-2 logoTrabajo text-center">
-      <img
-        src="assets/banner/escuela sistemas informaticos.jpg"
-        alt="Nervicom"
-        width="55%"
-        height="auto"
-        class="mx-auto d-block imglogo"
-      />
-    </div>
-    <div class="col-9 col-sm-10 col-md-10 col-lg-10">
-      <h2 class="instituto">ESCUELA DE SISTEMAS INFORMATICOS</h2>
-      <div class="edit_about">
-        <a href="#" class="edit-right">
-          <i class="fa fa-pen"></i>
-        </a>
-        <a href="#" class="delete"
-          ><i class="fa-sharp fa-solid fa-xmark"></i
-        ></a>
-      </div>
-      <h2 class="area_estudio">DESARROLLO WEB</h2>
-      <h2 class="nombre_titulo">WEB-MASTER</h2>
-      <h2 class="periodo_estudio">JUN.2017-SEPT.2017</h2>
-      <p class="perfil_egresado">
-        Diseñar, crear e implementar sitios web, uso de tecnologias como
-        Html,Css,JavaScript para dar forma a template o diseños<br />responsable
-        del diseño web, la funcionalidad y otros elementos del lado del cliente
-      </p>
-    </div>
-    <div class="col-3 col-sm-2 col-md-2 col-lg-2 logoTrabajo text-center">
-      <img
-        src="assets/banner/Santiago Mariño.png"
-        alt="Nervicom"
-        width="55%"
-        height="auto"
-        class="mx-auto d-block imglogo"
-      />
-    </div>
-    <div class="col-9 col-sm-10 col-md-10 col-lg-10">
-      <h2 class="instituto">
-        INSTITUTO UNIVERSITARIO POLITECNICO SANTIAGO MARIÑO
-      </h2>
-      <div class="edit_about">
-        <a href="#" class="edit-right">
-          <i class="fa fa-pen"></i>
-        </a>
-        <a href="#" class="delete"
-          ><i class="fa-sharp fa-solid fa-xmark"></i
-        ></a>
-      </div>
-      <h2 class="area_estudio">INGENIERIA EN SISTEMAS</h2>
-      <h2 class="nombre_titulo">INGENIERO EN SISTEMAS</h2>
-      <h2 class="periodo_estudio">Ener.2008-Jul.2013</h2>
-      <p class="perfil_egresado">
-        Diseñar, programar, implementación y mantenimiento de sistemas.
-        Incorpora métodos para optimizar el rendimiento económico. Evalúar
-        costo, efectividad de los recursos, máquinas y técnicas implementadas en
-        estos sistemas. Corregir la marcha de las diferentes etapas de un
-        proyecto. Definir en combinación con la gerencia las necesidades de una
-        organización. Formular planes que permitan integrar diferentes proyectos
-        de un programa general de desarrollo, manejar adecuadamente las
-        relaciones humanas y mantener una visión global del mundo.
-      </p>
     </div>
   </div>
 </div>

@@ -12,8 +12,9 @@ export class ExperienciaComponent implements OnInit {
   miPorfolio:any
   ngOnInit(): void {
     this.datosPortafoliofrontend.obtenerDatos().subscribe(data => {
-      this.miPorfolio=data;
-      console.log(data)
+      console.log(data.experience)
+      this.miPorfolio=data.experience;
+      
     })
   }
 
