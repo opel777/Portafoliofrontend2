@@ -1,8 +1,8 @@
 {
     "name": "Gustavo Villegas",
-    "imgbanner": "assets/banner/images9.jpg",
     "image": "assets/banner/perfil.png",
     "position": "Full Stack Developer",
+    "img": "assets/banner/images19.jpg",
     "about": "Soy un informático amante de la tecnología me gusta aprender como se hacen las cosas. Desde hace dos años he adquirido conocimientos más profundos desarrollando aplicaciones Web/móviles. Actualmente profundizo mi capacidad de análisis diseño implementando proyectos realizados en HTML, CSS, JavaScript, Ruby, React js. y en la actualidad ampliando mi perfil como Desarrollador Full-stack agregando al stack tecnológico Angular, MySql,Java, Spring Boot en la plataforma dirigida el Ministerio de desarrollo Productivo, el INTI y Argentina Programa",
     "experience": [
       {
