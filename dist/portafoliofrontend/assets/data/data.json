@@ -109,7 +109,7 @@
         "technology": "HTML/CSS/PHP/JS",
         "start": "MAY-2022",
         "end": "JUN-2022",
-        "descriptionPosition": "Desarrollo web SPA NAILS, este proyecto completo realizado para un sitio estetico de uñas, esta web fue diseñada para mostrar este establecimiento y donde se puede visualizar la gelocalizacion del sitio, ademas se agrego una seccion donde semuestran las reseñas GOOLGLE del establecimiento, los trabajos realizados tomados de instagram y adicional se enlaza con un gestor de citas y asi poder agendar algun tipoo de servicio que ofrece este. Alguna vez te hiciste un servicio en tus manos o pies?"
+        "descriptionPosition": "Desarrollo web SPA NAILS, este proyecto completo realizado para un sitio estético de uñas, esta web fue diseñada para mostrar este establecimiento y donde se puede visualizar la geolocalización del sitio, se agrego una sección donde se muestran las reseñas GOOGLE del establecimiento, los trabajos realizados tomados de Instagram y adicional se enlaza con un gestor de citas y así poder agendar algún tipo de servicio que ofrece este. Alguna vez te hiciste un servicio en tus manos o pies?"
       },
       {
         "img": "assets/banner/project1.jpg",
@@ -125,7 +125,7 @@
         "technology": "HTML/CSS/JS",
         "start": "MAY-2021",
         "end": "JUN-2021",
-        "descriptionPosition": "Desarrollo de calculadora desarrollada con HTML/CSS, JavaScript, se uso css grid y flex box para la estructura de la calculadora para su funciones se uso javascript y asi darle dinamismo a la misma.te invito a probarla.."
+        "descriptionPosition": "Desarrollo de calculadora desarrollada con HTML/CSS, JavaScript, se uso css grid y flex box para la estructura de la calculadora para su funciones se uso javascript y asi darle dinamismo a la misma. Te invito a probarla.."
       },
       {
         "img": "assets/banner/project3.jpg",
