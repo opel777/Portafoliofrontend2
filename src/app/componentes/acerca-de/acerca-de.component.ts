@@ -13,6 +13,7 @@ export class AcercaDeComponent implements OnInit {
   ngOnInit(): void {
     this.datosPortafoliofrontend.obtenerDatos().subscribe(data => {
       this.miPorfolio=data;
+
       console.log(data)
     })
   }

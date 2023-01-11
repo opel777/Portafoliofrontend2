@@ -12,8 +12,8 @@ export class ProyectosComponent implements OnInit {
   miPorfolio:any
   ngOnInit(): void {
     this.datosPortafoliofrontend.obtenerDatos().subscribe(data => {
-      console.log(data.proyectos)
-      this.miPorfolio=data.proyectos;
+      console.log(data.proyecto)
+      this.miPorfolio=data.proyecto;
       
     })
   }
