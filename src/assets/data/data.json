@@ -39,7 +39,7 @@
         "descriptionPosition": "Diseñar, crear e implementar redes Microondas por el territorio Venezolano, Monitoreo general de la infraestrutura creada.\nSupervision, adiestramiento del personal, desarrollar en conjunto con el departamento de tecnolgia nuevos diseños para la implementacion de las necesidades de nuevos clientes."
       }
     ],
-    "Education": [
+    "education": [
       {
         "img": "assets/banner/Inti2.jpeg",
         "instituto": "ARGENTINA PROGRAMA",
@@ -86,7 +86,7 @@
         "descriptionPosition": "Diseñar, programar, implementación y mantenimiento de sistemas. Incorpora métodos para optimizar el rendimiento económico. Evalúar costo, efectividad de los recursos, máquinas y técnicas implementadas en estos sistemas. Corregir la marcha de las diferentes etapas de un proyecto. Definir en combinación con la gerencia las necesidades de una organización. Formular planes que permitan integrar diferentes proyectos de un programa general de desarrollo, manejar adecuadamente las relaciones humanas y mantener una visión global del mundo."
       }
     ],
-    "proyectos": [
+    "proyecto": [
       {
         "img": "assets/banner/project8.jpeg",
         "name": "PORTFOLIO",
