@@ -16,6 +16,10 @@ export class AcercaDeComponent implements OnInit {
 
       console.log(data)
     })
+
+
+
+    
   }
 
 }

@@ -1,9 +1,52 @@
+
+<!-- Modal para Nueva Educacion-->
+<div class="modal fade" id="exampleModal-NewEducation" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Nueva Educacion</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal para Editar Educacion-->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Editar Educacion</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="col-12 border border-1 m-1 conten trabajos">
   <div class="row row-cols-auto align-items-center">
     <div class="col-12 tituloExperiencia">
       <h1 class="educacion">EDUCACION</h1>
+      <div class="edit_about">
+         <a href="#" class="delete" data-bs-toggle="modal" data-bs-target="#exampleModal-NewEducation">
+            <i class="ri-add-circle-line" ></i>
+         </a>
+      </div> 
     </div>
     <div class="componentes" *ngFor="let Education of miPorfolio">
+      
       <div class="col-3 col-sm-2 col-md-2 col-lg-2 logoTrabajo text-center">
         <img
           [src]="Education.img"
@@ -16,12 +59,12 @@
       <div class="col-9 col-sm-10 col-md-10 col-lg-10">
         <h2 class="instituto">{{ Education.instituto }}</h2>
         <div class="edit_about">
-          <a href="#" class="edit-right">
+          <a href="#" class="edit-right"data-bs-toggle="modal" data-bs-target="#exampleModal2" >
             <i class="fa fa-pen"></i>
           </a>
-          <a href="#" class="delete"
-            ><i class="fa-sharp fa-solid fa-xmark"></i
-          ></a>
+          <a href="#" class="delete"data-bs-toggle="modal" data-bs-target="#exampleModal" >
+            <i class="fa-sharp fa-solid fa-xmark"></i>
+          </a>
         </div>
         <h2 class="area_estudio">{{ Education.areaEstudio }}</h2>
         <h2 class="nombre_titulo">{{ Education.position1 }}</h2>
