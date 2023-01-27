@@ -1,0 +1,41 @@
+<div class="col-12 border border-1 m-1 conten proyectos">
+  <div class="row row-cols-auto align-items-center">
+    <div class="col-12 titulo_proyectos">
+      <h1 class="proyectos">PROYECTOS</h1>
+      <div class="edit_about">
+        <a href="#" class="delete">
+           <i class="ri-add-circle-line" ></i>
+        </a>
+     </div> 
+    </div>
+    <div class="componentes" *ngFor="let proyectos of miPorfolio">
+      <div class="col-3 col-sm-2 col-md-2 col-lg-2 logoTrabajo text-center">
+        <img
+          [src]="proyectos.img"
+          alt="yo programo"
+          width="85%"
+          height="auto"
+          class="mx-auto d-block imglogo"
+        />
+      </div>
+      <div class="col-9 col-sm-10 col-md-10 col-lg-10">
+        <h2 class="nombre_proyectos">{{ proyectos.name }}</h2>
+        <div class="edit_about">
+          <a href="#" class="edit-right">
+            <i class="fa fa-pen"></i>
+          </a>
+          <a href="#" class="delete"
+            ><i class="fa-sharp fa-solid fa-xmark"></i
+          ></a>
+        </div>
+        <h2 class="tegnologia_proyectos">{{ proyectos.technology }}</h2>
+        <h2 class="fecha_proyectos">
+          {{ proyectos.start }}-{{ proyectos.end }}
+        </h2>
+        <p class="descripcion_proyectos">
+          {{ proyectos.descriptionPosition }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
